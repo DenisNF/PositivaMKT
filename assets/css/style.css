@@ -349,6 +349,12 @@ section{padding:var(--espaco-secao) 0;position:relative}
 footer{padding:30px 0 100px;font-size:.9rem;color:var(--texto-suave);border-top:1px solid var(--linha)}
 footer .logo{margin-bottom:14px}
 footer .logo img{width:130px}
+footer p{margin:0 0 .4em}
+footer .legal{margin-top:.8em}
+.privacidade summary{display:inline-flex;align-items:center;min-height:44px;cursor:pointer;list-style:none;
+  color:var(--texto);text-decoration:underline;text-underline-offset:3px}
+.privacidade summary::-webkit-details-marker{display:none}
+.privacidade p{max-width:62ch;margin:.2em 0 0}
 
 /* Botão flutuante */
 .flutuante{position:fixed;right:16px;bottom:16px;z-index:50;width:60px;height:60px;border-radius:50%;
