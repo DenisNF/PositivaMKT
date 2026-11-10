@@ -71,7 +71,7 @@ O serviço já vem na frase, então quem atende anota na planilha: origem + serv
 - [ ] Vídeo do topo: confirmar a origem (provável Pexels, vídeo 13796032)
 
 **Técnico**
-- [ ] Trocar `{{DOMINIO}}` no `index.html` (imagem de compartilhamento e endereço da página)
+- [x] Domínio: positivasom.com.br, já no `index.html` (imagem de compartilhamento e endereço da página) — no ar desde 10/11
 - [ ] Testar no PageSpeed (celular) e num celular real, em rede móvel
 - [ ] Clicar em cada botão e conferir se o WhatsApp abre com a mensagem certa
 
@@ -100,6 +100,14 @@ Os três eventos levam `botao` (qual botão), `origem` (`google` ou `site`) e `v
 - [ ] Validar nas duas pontas, com a página já no domínio (nunca abrindo o arquivo no computador):
       a requisição sai do navegador com o rótulo certo, e a conversão e o evento chegam nas contas
 - [ ] Só depois disso subir a campanha
+
+## Publicação
+
+- A página fica no Easypanel, publicada a partir deste repositório (branch `main`).
+- `Dockerfile`: serve os arquivos com nginx. `.dockerignore`: deixa o README, o Dockerfile e os
+  arquivos do Git fora do site público.
+- Com a publicação automática desligada, depois de enviar ao GitHub é preciso clicar em
+  **Deploy** no Easypanel.
 
 ## GitHub
 
